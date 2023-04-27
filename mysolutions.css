@@ -69,6 +69,14 @@
 /* FINE ESERCIZIO 7 */
 
 /* ESERCIZIO 8 */
+    .ex-8-img{
+        transition: all 2s;
+    }
+
+    .ex-8-img:hover{
+        filter: grayscale(60%) sepia(50%);
+        border-radius: 20px;
+    }
 /* FINE ESERCIZIO 8 */
 
 /* ESERCIZIO 9 */
