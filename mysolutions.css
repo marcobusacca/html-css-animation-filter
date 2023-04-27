@@ -105,6 +105,24 @@
 /* FINE ESERCIZIO 10 */
 
 /* ESERCIZIO 11 */
+    .ex-11-icon:hover{
+        animation: second-rotate 2s linear;
+    }
+    /* ANIMATION SECOND-ROTATE */
+        @keyframes second-rotate{
+            0%{
+                transform: rotate(0);
+            }
+
+            80%{
+                transform: rotate(0.9turn);
+            }
+
+            100%{
+                transform: rotate(0);
+            }
+        }
+    /* FINE ANIMATION SECOND-ROTATE */
 /* FINE ESERCIZIO 11 */
 
 /* ESERCIZIO 12 */
