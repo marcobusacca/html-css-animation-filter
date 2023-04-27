@@ -29,6 +29,13 @@
 /* FINE ESERCIZIO 3 */
 
 /* ESERCIZIO 4 */
+    .ex-4-square{
+        transition: all 1s;
+    }
+
+    .ex-4-square:hover{
+        opacity: 0;
+    }
 /* FINE ESERCIZIO 4 */
 
 /* ESERCIZIO 5 */
