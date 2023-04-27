@@ -9,6 +9,13 @@
 /* FINE ESERCIZIO 1 */
 
 /* ESERCIZIO 2 */
+    .ex-2-square{
+        transition: all 2s;
+    }
+
+    .ex-2-square:active{
+        width: 100%;
+    }
 /* FINE ESERCIZIO 2 */
 
 /* ESERCIZIO 3 */
