@@ -92,6 +92,16 @@
 /* FINE ESERCIZIO 9 */
 
 /* ESERCIZIO 10 */
+    .ex-10-icon{
+        animation: rotate 1s linear infinite reverse;
+    }
+    /* ANIMATION ROTATE */
+        @keyframes rotate{
+            100%{
+                transform: rotate(1turn);
+            }
+        }
+    /* FINE ANIMATION ROTATE */
 /* FINE ESERCIZIO 10 */
 
 /* ESERCIZIO 11 */
