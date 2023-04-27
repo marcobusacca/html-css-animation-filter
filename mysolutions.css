@@ -165,4 +165,76 @@
 /* FINE ESERCIZIO 12 */
 
 /* ESERCIZIO 13 */
+    .ex-13-button:hover .ex-13-top-white{
+        animation: second-button-top 2s linear;
+    }
+    /* ANIMATION SECOND-BUTTON-TOP */
+        @keyframes second-button-top{
+            0%{
+                top: -10px;
+                left: 10%;
+            }
+
+            20%{
+                top: -10px;
+                left: calc(100% - 30px);
+            }
+
+            40%{
+                top: 100%;
+                left: calc(100% - 30px);
+            }
+
+            60%{
+                top: 100%;
+                left: -15px;
+            }
+
+            80%{
+                top: -10px;
+                left: -15px;
+            }
+
+            100%{
+                top: -10px;
+                left: 10%;
+            }
+        }
+    /* FINE ANIMATION SECOND-BUTTON-TOP */
+    .ex-13-button:hover .ex-13-bottom-white{
+        animation: second-button-bottom 2s linear;
+    }
+    /* ANIMATION SECOND-BUTTON-BOTTOM */
+        @keyframes second-button-bottom{
+            0%{
+                bottom: -10px;
+                right: 20%;
+            }
+
+            20%{
+                bottom: -10px;
+                right: calc(100% - 30px);
+            }
+
+            40%{
+                bottom: 100%;
+                right: calc(100% - 30px);
+            }
+
+            60%{
+                bottom: 100%;
+                right: -15px;
+            }
+
+            80%{
+                bottom: -10px;
+                right: -15px;
+            }
+
+            100%{
+                bottom: -10px;
+                right: 20%;
+            }
+        }
+    /* FINE ANIMATION SECOND-BUTTON-BOTTOM */
 /* FINE ESERCIZIO 13 */
