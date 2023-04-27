@@ -59,6 +59,13 @@
 /* FINE ESERCIZIO 6 */
 
 /* ESERCIZIO 7 */
+    .ex-7-img{
+        transition: all 2s;
+    }
+
+    .ex-7-img:hover{
+        filter: grayscale(60%) sepia(50%);
+    }
 /* FINE ESERCIZIO 7 */
 
 /* ESERCIZIO 8 */
